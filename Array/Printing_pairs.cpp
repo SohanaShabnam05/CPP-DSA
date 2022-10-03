@@ -1,34 +1,28 @@
 #include <iostream>
 using namespace std;
 
-void printAllPairs(int arr[], int n)
+void PrintAllPairs(int arr[], int n)
 {
-    //print all elements
-    for(int i=0; i<n ; i++){
+    //print all the elements
+    for(int i=0; i<n; i++)
+    {
         int x = arr[i];
 
-        for(int j=i+1; j<n; j++)
+        for(int j=i+1; j<n ; j++)
         {
-            int y = arr[j];
-            cout<< x<<","<<y <<endl;
+            int y= arr[j];
+             cout<< x <<" , " << y<<endl;
         }
-        cout<<endl;
+       cout<<endl;
     }
-
 }
 
 int main(){
-    
-    int arr[] = {10,20,30,45,50,60};
-    int n = sizeof(arr)/sizeof(int);
 
-    //print all element
-    // for(int x: arr)
-    // {
-    //     cout<<x<<endl;
-    // }
+    int arr[] = {1,2,3,4,5};
+    int n = sizeof(arr)/sizeof(n);
 
-    printAllPairs(arr,n);
+    PrintAllPairs(arr,n);
     
     return 0;
 }
