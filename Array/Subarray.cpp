@@ -7,7 +7,7 @@ void subarray(int arr[], int n)
     {
         for(int j=i; j<n ;j++)
         {
-           // cout<<x<<" , "<<y<<endl;
+          // cout<<i<<" , "<<j<<endl;
            for(int k=i ; k<=j; k++)
            {
             cout<<arr[k]<<",";
