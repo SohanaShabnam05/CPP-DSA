@@ -35,7 +35,7 @@ int main(){
     int arr[]={1, 2, 2, 2, 2, 3, 4, 7, 8, 8 };
     int n = sizeof(arr)/sizeof(arr[0]);
 
-    int key=8;
+    int key=2;
     cout<<firstOcc(arr,n,key);
     
     

@@ -14,7 +14,6 @@ void insertion_sort(int a[], int n)
             prev = prev - 1;
         }
         a[prev+1] = current;
-        
     }
 }
 
