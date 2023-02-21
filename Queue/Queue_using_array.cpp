@@ -11,11 +11,15 @@ void Enque()
     else
     {
         if(front == -1)
-        front = 0;
+        {
+             front = 0;
+        }
+       
         cout<<"Insert element in queue : "<<endl;
         cin>>data;
         rear++;
         queue[rear] = data; 
+          
     }
 }
 
@@ -29,7 +33,7 @@ void Deque()
     {
         cout<<"Element deleted from queue is : "<<queue[front]<<endl;
         front++;
-        rear++;
+
     }
 }
 
